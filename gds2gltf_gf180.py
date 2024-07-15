@@ -4,7 +4,7 @@ This program converts a GDSII 2D layout file to a glTF 3D file
 
 USAGE:
     - edit the "layerstack" variable in the "CONFIGURATION" section below
-    - run "gdsiigtlf file.gds"
+    - run "python3 gds2gtlf_gf180.py file.gds"
 OUTPUT:
     - the files file.gds.gltf
 
@@ -51,8 +51,8 @@ layerstack = {
     (34,0): {'name':'met1', 'zmin':0.91, 'zmax':1.46, 'color':[ 0.16, 0.38, 0.83, 1.0]},
     (35,0): {'name':'via1', 'zmin':1.46,'zmax':2.06, 'color':[ 0.2, 0.2, 0.2, 1.0]},
     (36,0): {'name':'met2', 'zmin':2.06, 'zmax':2.61, 'color':[ 0.65, 0.75, 0.9, 1.0]},
-	(38,0): {'name':'via2', 'zmin':2.61, 'zmax':3.21, 'color':[ 0.2, 0.2, 0.2, 1.0]},
-	(42,0): {'name':'met3', 'zmin':3.21, 'zmax':3.76, 'color':[ 0.2, 0.62, 0.86, 1.0]},    
+    (38,0): {'name':'via2', 'zmin':2.61, 'zmax':3.21, 'color':[ 0.2, 0.2, 0.2, 1.0]},
+    (42,0): {'name':'met3', 'zmin':3.21, 'zmax':3.76, 'color':[ 0.2, 0.62, 0.86, 1.0]},    
     (40,0): {'name':'via3', 'zmin':3.76, 'zmax':4.36, 'color':[ 0.2, 0.2, 0.2, 1.0]},
     (46,0): {'name':'met4', 'zmin':4.36, 'zmax':4.91, 'color':[ 0.15, 0.11, 0.38, 1.0]},   
     (41,0): {'name':'via4', 'zmin':4.91, 'zmax':5.51, 'color':[ 0.2, 0.2, 0.2, 1.0]},
